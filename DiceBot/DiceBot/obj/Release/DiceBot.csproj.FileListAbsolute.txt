@@ -1,0 +1,149 @@
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\DiceBot.exe.config
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\images\x1.png
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\images\x2.png
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\images\x3.png
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\images\x4.png
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\images\x5.png
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\images\x6.png
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\DiceBot.exe
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\DiceBot.pdb
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\Discord.Net.Commands.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\Discord.Net.Core.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\Discord.Net.Providers.WS4Net.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\Discord.Net.Rest.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\Discord.Net.Rpc.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\Discord.Net.Webhook.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\Discord.Net.WebSocket.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\Google.Apis.Auth.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\Google.Apis.Auth.PlatformServices.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\Google.Apis.Core.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\Google.Apis.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\Google.Apis.PlatformServices.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\Google.Apis.Sheets.v4.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\Microsoft.Extensions.DependencyInjection.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\Microsoft.Win32.Primitives.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\Newtonsoft.Json.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\System.AppContext.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\System.Collections.Immutable.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\System.Console.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\System.Diagnostics.DiagnosticSource.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\System.Diagnostics.Tracing.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\System.Globalization.Calendars.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\System.Interactive.Async.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\System.IO.Compression.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\System.IO.Compression.ZipFile.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\System.IO.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\System.IO.FileSystem.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\System.IO.FileSystem.Primitives.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\System.Linq.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\System.Linq.Expressions.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\System.Net.Http.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\System.Net.Sockets.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\System.Reflection.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\System.Runtime.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\System.Runtime.Extensions.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\System.Runtime.InteropServices.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\System.Security.Cryptography.Algorithms.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\System.Security.Cryptography.Encoding.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\System.Security.Cryptography.Primitives.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\System.Security.Cryptography.X509Certificates.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\System.Text.RegularExpressions.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\System.Xml.ReaderWriter.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\WebSocket4Net.dll
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\Discord.Net.Commands.xml
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\Discord.Net.Core.xml
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\Discord.Net.Providers.WS4Net.xml
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\Discord.Net.Rest.xml
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\Discord.Net.Rpc.xml
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\Discord.Net.Webhook.xml
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\Discord.Net.WebSocket.xml
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\Google.Apis.xml
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\Google.Apis.Auth.xml
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\Google.Apis.Core.xml
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\Google.Apis.Sheets.v4.xml
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\Microsoft.Extensions.DependencyInjection.xml
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\Newtonsoft.Json.xml
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\System.Collections.Immutable.xml
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\System.Diagnostics.DiagnosticSource.xml
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\bin\Release\System.Interactive.Async.xml
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\obj\Release\DiceBot.csprojResolveAssemblyReference.cache
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\obj\Release\DiceBot.exe
+c:\users\steven\documents\visual studio 2015\Projects\DiceBot\DiceBot\obj\Release\DiceBot.pdb
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\DiceBot.exe.config
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\obj\Release\DiceBot.exe
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\obj\Release\DiceBot.pdb
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\images\x1.png
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\images\x2.png
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\images\x3.png
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\images\x4.png
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\images\x5.png
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\images\x6.png
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\collector.jpg
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\DiceBot.exe
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\DiceBot.pdb
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\Discord.Net.Commands.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\Discord.Net.Core.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\Discord.Net.Providers.WS4Net.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\Discord.Net.Rest.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\Discord.Net.Rpc.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\Discord.Net.Webhook.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\Discord.Net.WebSocket.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\Google.Apis.Auth.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\Google.Apis.Auth.PlatformServices.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\Google.Apis.Core.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\Google.Apis.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\Google.Apis.PlatformServices.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\Google.Apis.Sheets.v4.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\Microsoft.Win32.Primitives.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\Newtonsoft.Json.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\System.AppContext.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\System.Collections.Immutable.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\System.Console.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\System.Diagnostics.Tracing.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\System.Globalization.Calendars.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\System.Interactive.Async.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\System.IO.Compression.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\System.IO.Compression.ZipFile.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\System.IO.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\System.IO.FileSystem.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\System.IO.FileSystem.Primitives.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\System.Linq.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\System.Linq.Expressions.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\System.Net.Http.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\System.Net.Sockets.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\System.Reflection.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\System.Runtime.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\System.Runtime.Extensions.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\System.Runtime.InteropServices.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\System.Security.Cryptography.Algorithms.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\System.Security.Cryptography.Encoding.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\System.Security.Cryptography.Primitives.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\System.Text.RegularExpressions.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\System.Xml.ReaderWriter.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\WebSocket4Net.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\Discord.Net.Commands.xml
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\Discord.Net.Core.xml
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\Discord.Net.Providers.WS4Net.xml
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\Discord.Net.Rest.xml
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\Discord.Net.Rpc.xml
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\Discord.Net.Webhook.xml
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\Discord.Net.WebSocket.xml
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\Google.Apis.xml
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\Google.Apis.Auth.xml
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\Google.Apis.Core.xml
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\Google.Apis.Sheets.v4.xml
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\Newtonsoft.Json.xml
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\System.Collections.Immutable.xml
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\System.Diagnostics.DiagnosticSource.xml
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\System.Interactive.Async.xml
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\obj\Release\DiceBot.csprojResolveAssemblyReference.cache

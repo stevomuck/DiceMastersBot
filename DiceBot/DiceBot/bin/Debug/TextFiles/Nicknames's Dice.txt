@@ -1,0 +1,4 @@
+Lantern Ring's Die : 78,52,61,   78,52,61,   197,171,180
+Norman Osborn's Die : 44,70,61,   33,59,50,   110,114,89
+Create Food and Water's Die : 224,224,224,   216,216,216,   55,55,55
+Create Food and Water's Die : 224,224,224,   216,216,216,   55,55,55
