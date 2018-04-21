@@ -41,11 +41,11 @@ namespace ConsoleApplication5.modules.Public
         GoogleTest go = new GoogleTest();
         static string[] sets = new string[]
         {
-            "AI","AOU", "ASM", "AVX", "BAT", "BFF", "CW", "DEF", "DP", "DRS", "FUS", "GAF", "GOTG", "HHS", "HQ" , "IMW", "JL", "JLL", "KI", "SMC", "SWW", "THOR", "TMNT", "TOA", "UXM", "WF", "WOL", "XFC" ,"YGO", "PROMO"
+            "AI","AOU", "ASM", "AVX", "BAT", "BFF", "BFU", "CW", "DEF", "DP", "DRS", "FUS", "GAF", "GOTG", "HHS", "HQ" , "IMW", "JL", "JLL", "KI", "SMC", "SWW", "THOR", "TMNT", "TOA", "UXM", "WF", "WOL", "XFC" ,"YGO", "PROMO"
         };
         static string[] setname = new string[]
         {
-            "Avengers Infinity Campaign Box","Age of Ultron", "The Amazing Spider-Man", "Avengers vs. X-Men", "Batman", "Battle for Faerûn", "Civil War", "Defenders Team Pack", "Deadpool", "Doctor Strange Team Pack", "Faerûn Under Seige",
+            "Avengers Infinity Campaign Box","Age of Ultron", "The Amazing Spider-Man", "Avengers vs. X-Men", "Batman", "Battle for Faerûn", "Battle for Ultramar", "Civil War", "Defenders Team Pack", "Deadpool", "Doctor Strange Team Pack", "Faerûn Under Seige",
             "Green Arrow and The Flash", "Guardians of the Galaxy", "Heroes in a Half Shell", "Harley Quinn Team Pack", "Iron Man and War Machine Starter Set", "Justice Legue","Just Like Lighting Team Pack", "Kree Invasion Team Pack",
             "Spider-Man Maximum Carnage Team Pack","Superman and Wonder Woman Starter Set","The Mighty Thor", "Tomb of Annihilation", "Teenage Mutant Ninja Turtles", "Uncanny X-Men", "World's Finest", "War of Light", "X-men First Class",
             "Yu-Gi-Oh : Series 1","Promo Cards"
@@ -70,10 +70,9 @@ namespace ConsoleApplication5.modules.Public
         static string[] keywords = new string[]
         {
             "Adventurer", "Aftershock", "Ally", "Anti-Breath Weapon", "Attune", "Awaken", "Back for More", "Boomerang", "Breath Weapon", "Call Out", "Cleave", "Crossover", "Crosspulse", "Deadly", "Effect", "Energy Drain", "Enlistment"
-            ,"Equip", "Experience", "Fabricate", "Fast", "Flip", "Fusion", "Gadgeteer", "Heroic", "Immortal", "Impulse", "Iron Will", "Infiltrate", "Intimidate", "Overcrush", "Regenerate", "Resistance", "Retaliation", "Ritual",
+            ,"Equip", "Experience", "Fabricate", "Fast", "Flip", "Fusion", "Gadgeteer", "Heroic", "Immortal", "Impulse", "Iron Will", "Infiltrate", "Intimidate", "Overcrush", "Range", "Regenerate", "Resistance", "Retaliation", "Ritual",
             "Suit Up", "Swarm", "Synergy", "Teamwatch", "Teamwork", "Trap", "Trigger", "Turtle Power", "Underdog", "Vengeance"
         };
-
         static string[] Rarities = new string[]
         {
             "c", "ch", "uc", "u", "r", "sr", "s", "p", "common", "uncommon", "rare", "super", "super rare", "chase", "promo"
@@ -124,43 +123,120 @@ namespace ConsoleApplication5.modules.Public
         [Command("help")]
         public async Task DM()
         {
-            string s = "Here is a list of commands :\n\n **>card** " +
-                "There are several versions of this command. Here is how to use them. We will look at Rip Hunter from the BAT set for demonstration" + "```" +
-                ">card (cardset and number combined)\n \t\t Example: >card BAT030 <= This return Rip Hunter: Navigating the Sands of Time.\n" +
-                "\t\t You can also use the word \"Random\" in place of the card code to return a random card from all the sets.\n\n" +
-                ">card (cardset) (card name)\n \t\t Example: >card BAT \"Rip Hunter\" <= This returns all Rip Hunter cards in the set.\n\n" +
-                ">card (cardset) (card name) (rarity)\n \t\t Example: >card BAT \"Rip Hunter\" R <= This returns the Rare Rip Hunter.\n\n" +
+            
+            string s = "Okay, so here is a list of my functions: \n\n" +
+                ">card \n" +
+                ">global \n" +
+                ">nick \n" +
+                ">keyword \n" +
+                ">myteam \n" +
+                ">myteamgif \n" +
+                ">promo \n" +
+                ">fullpic \n" +
+                ">fulltext \n" +
+                ">sets \n" +
+                ">setshere \n" +
+                ">super \n" +
+                ">about \n\n\nIf you want to see an example please type >help and then the function name for a more detailed explanation.";
+            await ReplyAsync(s);
 
-                "``` \n\n" +
-                "**>nick** This is similar to >card but it allows you to search for a card by its nickname. ```" +
-                ">nick (cardset) (card name)\n \t\t Example: >nick UXM PXG <= This returns the common Professor X with the Global Ability. \n\n" +
-                "``` \n\n" +
-
-                "**>sub** Use this to search for a card if you know its subtitle. ```" +
-                ">sub (set) (subtitle)\n \t\t Example: >sub GOTG \"Taneleer Tivan\" <= This returns the Rare \"The Collecter\". ``` \n\n";
-            await Context.User.SendMessageAsync(s);
-
-           s = "\n\n**>fullpic** and **>fulltext** This will have the bot PM you, and print out a full set ```" +
-                ">fullpic (set)\n \t\t Example: >fullpick GOTG <= The bot will PM the cards in the set **WITH** pictures. \n" +
-                ">fulltext (set)\n \t\t Example: >fulltext GOTG <= The bot will PM the cards in the set **WITHOUT** pictures.``` \n\n" +
-
-                "**>promo** To use this you have to state which set the Promo is linked to, and also the character name. ```" +
-                ">promo (cardset) (card name)\n \t\t Example: >nick UXM Apocalypse <= This returns Apocalypse : Earth-259. ```" +
-                "Please note that only Marvel Promos have been entered at the moment. \n\n" +
-
-                "**>keyword** Use this if you want the definition of a keyword. ```" +
-                ">keyword (word)\n \t\t Example: >keyword Swarm <= This returns all the information about the swarm mechanic.``` \n" +
-
-                "**>myteam** Use this to have the bot print out a team. ```" +
-                ">keyword (dm.frankenstin link)``` \n"+
-
-                "**>sets** Use this to have the bot pm you a list of valid sets. \n\n" +
-                
-
-                "The bot has currently got all the sets included. If you wish to search for a cards code manually, then please look at the following link: \n" +
-                "https://docs.google.com/spreadsheets/d/1jozQLrTrp89FfNEwoUEfKR_rTQbuJHN-35Exs3-tnu8/edit?usp=sharing";
-            await Context.User.SendMessageAsync(s);
         }
+
+        [Command("help")]
+        public async Task DMHelpDetails(string function)
+        {
+            string s;
+
+            if ((function == ">card") || (function == "card"))
+            {
+                s = "There are several versions of this command. Here is how to use them. We will look at Rip Hunter from the BAT set for demonstration" + "```" +
+                 ">card (cardset and number combined)\n \t\t Example: >card BAT030 <= This returns Rip Hunter: Navigating the Sands of Time.\n\n" +
+                 ">card (cardset) (card name)\n \t\t Example: >card BAT \"Rip Hunter\" <= This returns all Rip Hunter cards in the set.\n\n" +
+                 ">card (cardset) (card name) (rarity)\n \t\t Example: >card BAT \"Rip Hunter\" R <= This returns the Rare Rip Hunter.```" +
+                 "\n\nPlease be aware that if the card name has more than 1 word, it will need to be encased in \"\". Example \"The Bifrost\" ";
+            }
+            else if ((function == ">global") || (function == "global"))
+            {
+                s = "To use this function you just need to include the set and the character/card name. Here is a demonstration using THOR and Samantha Wilson" + "```" +
+                    ">global (card name)\n \t\t>global \"Samantha Wilson\" <= This will return all the global abilites found on all the rarites. If there are 2 or more different ones then they will be printed seperately.```" +
+                 "\n\nPlease be aware that if the card name has more than 1 word, it will need to be encased in \"\". Example \"The Bifrost\" ";
+            }
+            else if ((function == ">nick") || (function == "nick"))
+            {
+                s = "There are several versions of this command. Here is how to use them. We will look at Lantern Ring from the WOL set for demonstration, which is called \"Ring\" for short. (As in a Bolt Ring team)" + "```" +
+                ">card (nickname)\n \t\t Example: >nick Ring <= This returns the Rare Lantern Ring.\n\n" +
+                ">card (cardset) (card name)\n \t\t Example: >card Wol Ring <= This returns Rare Lantern Ring.```";
+            }
+            else if ((function == ">promo") || (function == "promo"))
+            {
+                s = "There are several versions of this command. Here is how to use them. For this demonstration we will look at Thor: The Mighty from AVX" + "```" +
+                ">card (cardset and number combined)\n \t\t Example: >promo AVXOP#007 <= This returns the promo Thor card.\n\n" +
+                ">card (card name)\n \t\t Example: >promo Thor <= This returns all Thor promos.```" +
+                 "\n\nPlease be aware that if the card name has more than 1 word, it will need to be encased in \"\". Example \"Wonder Woman\" ";
+            }
+            else if ((function == ">keyword") || (function == "keyword"))
+            {
+                s = "To use this function, you need only state the keyword you are after. For this demonstration we will look at Breath Weapon" + "```" +
+                ">keyword (keyword you are after)\n \t\t Example: >keyword \"Breath Weapon\" <= This returns the text from the wizkids keywords page, in regards to the ruling.```\n\n" +
+                 "\n\nPlease be aware that if the card name has more than 1 word, it will need to be encased in \"\". Example \"Call Out\" \n\n" +
+                 "This command is known to be broken and may not work, it is being worked on.";
+            }
+            else if ((function == ">myteam") || (function == "myteam"))
+            {
+                s = "To use this function, you just need to paste a team link from one of these 3 sites. http://tb.dicecoalition.com/, http://dm.frankenstein.com/ or http://dm.retrobox.eu/ " + "```" +
+                ">myteam (url)\n \t\t Example: >myteam http://tb.dicecoalition.com/?view&cards=1x16smc <= I will build a team image with these cards, inserting blanks if needed.```";
+            }
+            else if ((function == ">myteam") || (function == "myteam"))
+            {
+                s = "To use this function, you just need to state if you want to have dice quantities printed and paste a team link from one of these 3 sites. http://tb.dicecoalition.com/, http://dm.frankenstein.com/ or http://dm.retrobox.eu/ " + "```" +
+                ">myteam (url)\n \t\t Example: >myteam dice http://tb.dicecoalition.com/?view&cards=1x16smc <= I will build a team gif with these cards, printing the dice quantities on them and inserting blanks if needed." +
+                "\nExample: >myteam nodice http://tb.dicecoalition.com/?view&cards=1x16smc <= I will build a team gif with these cards, inserting blanks if needed.```";
+            }
+            else if ((function == ">fullpic") || (function == "fullpic"))
+            {
+                s = "This function will pm you all the cards in a set, with their images if available." + "```" +
+                ">fullpic (set)\n \t\t Example: >fullpic THOR <= This sends all the THOR cards to you in private to avoid spam.```";
+            }
+            else if ((function == ">fulltext") || (function == "fulltext"))
+            {
+                s = "This function will pm you all the cards in a set, without their images." + "```" +
+                ">fullpic (set)\n \t\t Example: >fullpic THOR <= This sends all the THOR cards to you in private to avoid spam.```";
+            }
+            else if ((function == ">sets") || (function == "sets"))
+            {
+                s = "This function will pm you all the sets available in the bot." + "```" +
+                "Example: >sets <= This sends all the sets and their abbreviations to you in private.```";
+            }
+            else if ((function == ">setshere") || (function == "setshere"))
+            {
+                s = "This function will print all the sets available in the bot in the active channel." + "```" +
+                "Example: >setshere <= This prints all the sets and their abbreviations in the active channel.```";
+            }
+            else if ((function == ">super") || (function == "super"))
+            {
+                s = "This function will print out all the super rare cards in a set, with their images if available." + "```" +
+                ">super (set)\n \t\t Example: >super THOR <= This prints all the Super Rare THOR cards to the active channe.```";
+            }
+            else if ((function == ">about") || (function == "about"))
+            {
+                s = "To use this command, just type >about. Its pretty simple!";
+            }
+            else
+            {
+                s = "I cant find that function!";
+            }
+
+            await ReplyAsync(s);
+        }
+
+        [Command("about")]
+        public async Task About()
+        {
+            string s = "This bot was made in C# using the .Net framework and api's from Google and Discord. The programmer is Stevomuck, who can be found on the server or on facebook as Steven McEwan." +
+                "\nIf you find any errors or have a function idea, please let him know! (also if you want to tip him, he will be more than happy to send you paypal information!)";
+            await ReplyAsync(s);
+        }
+
 
         [Command("card"), Summary("Echos a message.")]
         [Alias("carte")]
@@ -537,6 +613,86 @@ namespace ConsoleApplication5.modules.Public
         
         }
 
+        [Command ("global")]
+        public async Task FindGlobals(string sheet, string name)
+        {
+            List<string> effectholder = new List<string>();
+
+            bool foundglobal = false;
+            bool foundcharacter = false;
+            sheet = sheet.ToUpper();
+
+            if (sheet == "TMT")
+                sheet = "THOR";
+
+
+            if (!sets.Contains(sheet.ToUpper()))
+            {
+                await Error("set", sheet);
+                foundglobal = true;
+            }
+            else
+            {
+                string sheetref = sheet + "!";
+                GoogleTest.Main(sheetref);
+                var test = GoogleTest._values;
+
+                name = name.ToLower();
+
+                foreach (var row in test)
+                {
+                    Tempname = (string)row[1];
+                    Tempname = Tempname.ToLower();
+
+                    holder = (string)row[1];
+                    if ((!valid.Contains(holder)) && (!valid.Contains("\"" + holder + "\"")))
+                    {
+                        if (holder.Contains(' '))
+                        {
+                            holder = "\"" + holder + "\"";
+
+                        }
+                        valid.Add(holder);
+                    }
+
+                    
+
+                    //Check for named cell
+                    if (Tempname == name)
+                    {
+                        foundcharacter = true;
+
+                        string fullEffect = (string)row[7];
+                        string find = "Global: ";
+
+                        if (fullEffect.Contains("Global: "))
+                        {
+                            foundglobal = true;
+                            string global = fullEffect.Substring(fullEffect.IndexOf(find) + find.Length);
+
+                            if (!effectholder.Contains(global))
+                            {
+                                effectholder.Add(global);
+                                CGlobal = global;
+                                await globalprint(name);
+                            }
+                        }
+                    }
+                }
+            }
+            if (foundglobal == false)
+            {
+                if (foundcharacter == false)
+                {
+                    await Error("card", name);
+                }
+                else
+                {
+                    await Error("global", name);
+                }
+            }
+        }
+    
         [Command("nick")]
         public async Task FindNick(string sheet, string nick)
         {
@@ -649,6 +805,57 @@ namespace ConsoleApplication5.modules.Public
             if (found == false)
             {
                 await Error("card", nick);
+            }
+        }
+
+        [Command("promo")]
+        public async Task Promo(string name)
+        {
+            bool found = false;
+            string sheetref = "PROMO!";
+            GoogleTest.Main(sheetref);
+            var test = GoogleTest._values;
+
+            name = name.ToLower();
+
+            foreach (var row in test)
+            {
+                Tempname = (string)row[1];
+                Tempname = Tempname.ToLower();
+
+                holder = (string)row[1];
+                if ((!valid.Contains(holder)) && (!valid.Contains("\"" + holder + "\"")))
+                {
+                    if (holder.Contains(' '))
+                    {
+                        holder = "\"" + holder + "\"";
+
+                    }
+                    valid.Add(holder);
+                }
+
+                //Check for named cell
+                if ((Tempname == name))
+                {
+                    //Assign the cells to varibales
+                    CCode = (string)row[0];
+                    CName = (string)row[1];
+                    CSub = (string)row[2];
+                    CCost = (string)row[3];
+                    CEnergy = (string)row[4];
+                    CRarity = (string)row[5];
+                    CAffiliation = (string)row[6];
+                    CEffect = (string)row[7];
+                    CStat = (string)row[8];
+                    CImage = (string)row[9];
+                    CFImage = (string)row[10];
+                    found = true;
+                    await contextbuilder(2);
+                }
+            }
+            if (found == false)
+            {
+                await Error("card", name);
             }
         }
 
@@ -1344,6 +1551,23 @@ namespace ConsoleApplication5.modules.Public
 
             await Context.Channel.SendMessageAsync("", false, MyEmbedBuilder);
         }
+        private async Task globalprint(string name)
+        {
+
+           
+            EmbedBuilder MyEmbedBuilder = new EmbedBuilder();
+            MyEmbedBuilder.WithColor(0xff9115);
+            MyEmbedBuilder.WithTitle(name + "'s Global Abilities:" );
+
+            EmbedFieldBuilder MyEmbedField4 = new EmbedFieldBuilder();
+            MyEmbedField4.WithName("__Global__");
+            CGlobal = AffiliationReplacer(CGlobal);
+            MyEmbedField4.WithValue(CGlobal);
+            MyEmbedBuilder.AddField(MyEmbedField4);
+
+
+            await Context.Channel.SendMessageAsync("", false, MyEmbedBuilder);
+        }
 
         private async Task PMbuilder(int type)
         {
@@ -1440,7 +1664,7 @@ namespace ConsoleApplication5.modules.Public
             await Context.User.SendMessageAsync("", false, MyEmbedBuilder);
         }
 
-        private async Task Error(string type, string erronious)
+        public async Task Error(string type, string erronious)
         {
             var activeuser = Context.User;
             string errorType = "";
@@ -1533,6 +1757,18 @@ namespace ConsoleApplication5.modules.Public
                 errorMessage = "So close, and yet so far " + Context.User.Username + ". Here is how to do the rarities. \n\nFor Common cards type : c or Common. \nFor Uncommon cards type : uc, u or Uncommon. \nFor Rare cards type : r or Rare" +
                     "\nFor Super Rare cards type: s, sr, Super or 'Super Rare'. \nFor promo cards type: p or Promo. \nAnd finally, for Chase cards type: ch or Chase.";
                 normalError = "the rarity";
+            }
+            else if (type == "global")
+            {
+                errorType = "Global";
+                errorMessage = "*sigh*.  " + Context.User.Username + " You do know that that character does not have a global, right?";
+                normalError = "the globals on that character";
+            }
+            else if (type == "dice")
+            {
+                errorType = "teambuildergif";
+                errorMessage = "*hmmm*.  " + Context.User.Username + " How about trying one of the following 4 options. Dice or die for the dice quantites, or nodice or nodie for images without quantites?";
+                normalError = "the quantiy graphic variable";
             }
             else
             {

@@ -147,3 +147,5 @@ C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\System.Collection
 C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\System.Diagnostics.DiagnosticSource.xml
 C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\System.Interactive.Async.xml
 C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\obj\Release\DiceBot.csprojResolveAssemblyReference.cache
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\Magick.NET-Q16-AnyCPU.dll
+C:\Users\Steven\Documents\MEGAsync\DiceBot\DiceBot\bin\Release\Magick.NET-Q16-AnyCPU.xml
