@@ -1,0 +1,56 @@
+﻿Adventurer
+Aftershock
+Ally
+Amplify
+Anti-Breath Weapon
+Attune
+Awaken
+Back for More
+Boomerang
+Breath Weapon
+Call Out
+Cleave
+Corrupt
+Crossover
+Crosspulse
+Deadly
+Effect
+Energize
+Energy Drain
+Enlistment
+Equip
+Experience
+Fabricate
+Fast
+Flip
+Frag
+Fusion
+Gadgeteer
+Heroic
+Immortal
+Impulse
+Iron Will
+Infiltrate
+Intimidate
+Overcrush
+Range
+Regenerate
+Resistanc
+Retaliation
+Ritual
+Strike
+Suit Up
+Swarm
+Synergy
+Tag Out
+Teamwatch
+Teamwork
+Trap
+Trigger
+Turtle Power
+Underdog
+Vengeance
+Spark
+Obscure
+Recruit
+Rush
